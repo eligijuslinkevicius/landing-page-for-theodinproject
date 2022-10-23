@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+#header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 15%;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#header-links ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#header-links ul li a {
+    text-decoration: none;
+    margin: 0.5em;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    color: #E5E7EB;
+}
