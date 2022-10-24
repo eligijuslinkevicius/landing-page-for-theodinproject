@@ -5,14 +5,14 @@ body {
 
 #header {
     background-color: #1F2937;
-    width: 100%;
+
 }
 
 #header-navigation {
+    padding: 0.5em 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 15%;
 }
 
 #header-logo {
@@ -35,4 +35,62 @@ body {
     font-weight: 400;
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     color: #E5E7EB;
+}
+
+section div {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left-half {
+    flex: 1;
+}
+
+.right-half {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 10%;
+    flex: 1;
+}
+
+.text {
+    display: inline-block;
+    margin: 10%;
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.text .btn {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    border-radius: 0.5em;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 25px;
 }
