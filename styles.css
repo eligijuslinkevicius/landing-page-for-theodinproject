@@ -94,3 +94,43 @@ section div {
     margin-top: 15px;
     padding: 10px 25px;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+#illustrations {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.illustration-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.illustration-card img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.illustration-card p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    color: #606060;
+    text-align: center;
+}
