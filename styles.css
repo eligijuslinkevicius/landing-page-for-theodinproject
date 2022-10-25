@@ -93,6 +93,12 @@ section div {
     text-decoration: none;
     margin-top: 15px;
     padding: 10px 25px;
+    transition: ease-in-out 0.25s;
+}
+
+.text .btn:hover {
+    color: #3882f6;
+    background-color: #F9FAF8;
 }
 
 h2 {
@@ -133,4 +139,84 @@ h2 {
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     color: #606060;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote p {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    color: #ababab;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 20px 15%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cta-left h3 {
+    color: #F9FAF8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+#cta-left p {
+    color: #F9FAF8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+#cta-btn {
+    color: #F9FAF8;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    margin: 10px 30px;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: ease-in-out 0.25s;
+}
+
+#cta-btn:hover {
+    background-color: #F9FAF8;
+    color: #3882f6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    background-color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
