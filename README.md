@@ -1,4 +1,5 @@
 # Landing Page For TheOdinProject
+ - Preview: https://eligijuslinkevicius.github.io/landing-page-for-theodinproject/
 
 ## What's this?
 - This is my repository for TheOdinProject's project - landing page.
